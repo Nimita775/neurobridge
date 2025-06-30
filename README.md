@@ -1,18 +1,27 @@
-# NeuroBridge
+# NeuroBridge — AI Mental Health Companion
 
-**NeuroBridge** is an AI-powered mental health companion that helps you **journal your thoughts**, **track your mood**, and **chat with a supportive assistant** — all in one beautiful app.
+**NeuroBridge** is a privacy-first , it's an AI-powered mental health companion that helps you express, understand, and improve your emotional well-being. With smart journal analysis, mood tracking, and an empathetic AI companion, NeuroBridge provides 24/7 mental health support right in your browser.
 
-Built with **Next.js**, **Tailwind CSS**, **OpenAI GPT**, and **DeepSeek**, NeuroBridge aims to make mental health support more accessible, private, and personalized.
+**AI Journal • Mood Prediction • Mood Tracker • Caring Chatbot**
 
 ---
 
+**Why NeuroBridge?**
+
+Millions of people face stress, anxiety, and isolation every day — yet real support can be costly, stigmatized, or simply out of reach when it’s needed most.
+
+**NeuroBridge bridges that gap** with a safe, AI-powered space to **reflect**, **understand**, and **navigate your emotions**, putting gentle mental health support in everyone’s pocket.
+
+--- 
+
+
 ## ✨ Features
 
-- 📝 **Journaling** — Write your thoughts and feelings in a private journal.
+- 📝 **Smart Journaling** - AI analyzes your entries to detect emotions.
 - 🎭 **Mood Prediction** — Get instant AI-powered mood analysis from your journal entries.
-- 📊 **Mood Tracker** — Select and save your daily mood with a single tap.
-- 💬 **AI Chat** — Talk to a supportive, empathetic AI assistant designed to listen and respond with care.
-- 🔒 **Local-first** — Mood history is stored in your browser for privacy.
+- 📊 **Mood Tracker** — Visualize your emotional journey over time.
+- 💬 **AI Chat** — Talk with an AI companion designed to listen without judgment and support you with gentle conversation.
+- 🔒 **Privacy Focused** - Your data stays on your device.
 
 ---
 
@@ -25,5 +34,24 @@ Built with **Next.js**, **Tailwind CSS**, **OpenAI GPT**, and **DeepSeek**, Neur
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Tech Stack
 
+| | |
+|----------------|----------------|
+| 🧩 **Framework:** | Next.js 13 (App Router) |
+| 🎨 **Styling:** | Tailwind CSS, Radix UI |
+| 🤖 **AI Models:** | OpenAI GPT-4 / DeepSeek |
+| 💾 **Storage:** | LocalStorage for mood data |
+| ☁️ **Hosting:** | Vercel / Netlify |
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+/app
+  ├── chat/       # AI chat interface
+  ├── mood/       # Mood tracking page
+  ├── api/        # API routes (OpenAI / DeepSeek integration)
+  ├── components/ # Reusable UI components
+  ├── styles/     # Global styles
